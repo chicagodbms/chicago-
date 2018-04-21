@@ -15,9 +15,9 @@
 <body>
 
 <div id="top">
-    <div class="shell">
+<!--    <div class="shell">-->
         <!-- Header -->
-        <div id="header">
+        <div>
             <h1 id="logo"><a href="login.php">Online Database</a></h1>
             <div id="navigation">
                 <ul>
@@ -44,7 +44,7 @@
 <!--            <div id="slider-nav"> <a href="#" class="prev">Previous</a> <a href="#" class="next">Next</a> </div>-->
 <!--        </div>-->
         <!-- End Slider -->
-    </div>
+<!--    </div>-->
 </div>
 
 <div class="main">
@@ -83,7 +83,7 @@
 
     <div id="footer">
         <a href="login.php">Home</a> <span>|</span>
-        <a href="about.php">About the Store</a> <span>|</span>
+        <a href="about.php">About the Database</a> <span>|</span>
         <a href="contact.php">Contact</a>
     </div>
 

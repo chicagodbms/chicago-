@@ -145,7 +145,7 @@
 
 <div id="footer">
   <a href="login.php">Home</a> <span>|</span> 
-  <a href="about.php">About the Store</a> <span>|</span> 
+  <a href="about.php">About the Database</a> <span>|</span>
   <a href="contact.php">Contact</a> <span>|</span> 
   <a href="logout.php">Logout</a> 
 </div>

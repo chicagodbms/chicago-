@@ -6,7 +6,7 @@
 
 <head>
 	<title>
-		Online Soccer Shoes Store | Administrator Change password
+        Online Crime Database
 	</title>
   <link rel="stylesheet" href="css/style_mainstore.css" type="text/css" media="all" />
 </head>

@@ -18,9 +18,9 @@
       <h1 id="logo"><a href="login.php">Online Store</a></h1>
       <div id="navigation">
         <ul>
-          <li><a href="cust_profile.php">Home</a></li>
-          <li><a href="about.php">About the Store</a></li>
-          <li><a href="contact.php">Contact</a></li>
+            <li><a href="login.php">Home</a></li>
+            <li><a href="about.php">About the Database</a></li>
+            <li><a href="contact.php">Contact</a></li>
           <li><a href="logout.php">Logout</a><li>
         </ul>
       </div>
