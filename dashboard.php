@@ -34,7 +34,7 @@ Online Crime Database | Login
     </style>
 </head>
 
-<body>
+<body style="background-color: beige">
 
 <div id="top">
     <div class="shell">
@@ -74,9 +74,10 @@ Online Crime Database | Login
 
 <!--    <p>content</p>-->
     <div id="map"></div>
+    <>
 </div>
 
-<div id="chart" style="background-color:black;height:800px;width: 13%;px;float:right">
+<div id="chart" style="background-color:#bcbcbc; height:800px;width: 13%;px;float:right">
 <!--    <p>layer and chart</p>-->
 </div>
 
@@ -115,6 +116,11 @@ Online Crime Database | Login
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHxq1IQOM8aepyDc5kQYtRxOm6IYRxiWo&callback=initMap">
 </script>
 
+<div id="footer">
+    <a href="login.php">Home</a> <span>|</span>
+    <a href="about.php">About the Database</a> <span>|</span>
+    <a href="contact.php">Contact</a>
+</div>
 
 <!---->
 <!--<div id="footer">-->

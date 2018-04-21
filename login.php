@@ -15,8 +15,8 @@
 <body>
 
 <div id="top">
-<!--    <div class="shell">-->
-        <!-- Header -->
+    <div class="shell">
+         Header
         <div>
             <h1 id="logo"><a href="login.php">Online Database</a></h1>
             <div id="navigation">
@@ -27,24 +27,22 @@
                 </ul>
             </div>
         </div>
-        <!-- End Header -->
-        <!-- Slider -->
+<!--         End Header-->
+<!--         Slider-->
 <!--        remove the slider-->
-<!--        <div id="slider">-->
-<!--            <div id="slider-holder">-->
-<!--                <ul>-->
-<!--                    <li><img src="css/images/slide1.jpg"  /></li>-->
-<!--                    <li><img src="css/images/slide2.jpg" alt="" /></li>-->
-<!--                    <li><img src="css/images/slide1.jpg" alt="" /></li>-->
-<!--                    <li><img src="css/images/slide2.jpg" alt="" /></li>-->
-<!--                    <li><img src="css/images/slide1.jpg" alt="" /></li>-->
-<!--                    <li><img src="css/images/slide2.jpg" alt="" /></li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--            <div id="slider-nav"> <a href="#" class="prev">Previous</a> <a href="#" class="next">Next</a> </div>-->
-<!--        </div>-->
-        <!-- End Slider -->
-<!--    </div>-->
+        <div id="slider">
+            <div id="slider-holder">
+                <ul>
+                    <li><img src="css/images/slide1.jpg"  /></li>
+                    <li><img src="css/images/slide2.jpg" alt="" /></li>
+                    <li><img src="css/images/slide1.jpg" alt="" /></li>
+                    <li><img src="css/images/slide2.jpg" alt="" /></li>
+                </ul>
+            </div>
+            <div id="slider-nav"> <a href="#" class="prev">Previous</a> <a href="#" class="next">Next</a> </div>
+        </div>
+         End Slider
+    </div>
 </div>
 
 <div class="main">
