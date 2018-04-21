@@ -68,11 +68,11 @@ else{
 
 	if (sizeof($Shoes_ID) == 0) 
   {
-	  echo "<p>There are no shoes in store.</p>";
+	  echo "<p>There are no record in the group.</p>";
   }
   else
   {
-    echo "<p>All shoes are as follows.</p>";
+    echo "<p>All records are as follows.</p>";
     $products = "
       <table border='1'>
       <tr>

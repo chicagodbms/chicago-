@@ -5,18 +5,23 @@
         Online Crime Database | Login
     </title>
 
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/stylemain.css" type="text/css" media="all" />
     <script src="js/jquery-1.4.1.min.js" type="text/javascript"></script>
     <script src="js/jquery.jcarousel.pack.js" type="text/javascript"></script>
     <script src="js/jquery.slide.js" type="text/javascript"></script>
     <script src="js/jquery-func.js" type="text/javascript"></script>
+<!--    <style>-->
+<!--        background-image: url(css/images/chicago.jpg);-->
+<!--        background-size: 100%;-->
+<!--        background-repeat: no-repeat;-->
+<!--    </style>-->
 </head>
-
-<body>
+<!---->
+<body background="css/images/chicago4.jpg">
+<!--<body>-->
 
 <div id="top">
-    <div class="shell">
-         Header
+<!--    <div class="shell">-->
         <div>
             <h1 id="logo"><a href="login.php">Online Database</a></h1>
             <div id="navigation">
@@ -30,19 +35,19 @@
 <!--         End Header-->
 <!--         Slider-->
 <!--        remove the slider-->
-        <div id="slider">
-            <div id="slider-holder">
-                <ul>
-                    <li><img src="css/images/slide1.jpg"  /></li>
-                    <li><img src="css/images/slide2.jpg" alt="" /></li>
-                    <li><img src="css/images/slide1.jpg" alt="" /></li>
-                    <li><img src="css/images/slide2.jpg" alt="" /></li>
-                </ul>
-            </div>
-            <div id="slider-nav"> <a href="#" class="prev">Previous</a> <a href="#" class="next">Next</a> </div>
-        </div>
-         End Slider
-    </div>
+<!--        <div id="slider">-->
+<!--            <div id="slider-holder">-->
+<!--                <ul>-->
+<!--                    <li><img src="css/images/slide1.jpg"  /></li>-->
+<!--                    <li><img src="css/images/slide2.jpg" alt="" /></li>-->
+<!--                    <li><img src="css/images/slide1.jpg" alt="" /></li>-->
+<!--                    <li><img src="css/images/slide2.jpg" alt="" /></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div id="slider-nav"> <a href="#" class="prev">Previous</a> <a href="#" class="next">Next</a> </div>-->
+<!--        </div>-->
+<!--         End Slider-->
+<!--    </div>-->
 </div>
 
 <div class="main">
