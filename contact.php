@@ -3,24 +3,28 @@
 	<title>
         Online Crime Database |  Contact
 	</title>
-  <link rel="stylesheet" href="css/style_mainstore.css" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="css/stylemain.css" type="text/css" media="all" />
+    <script src="js/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.jcarousel.pack.js" type="text/javascript"></script>
+    <script src="js/jquery.slide.js" type="text/javascript"></script>
+    <script src="js/jquery-func.js" type="text/javascript"></script>
 </head>
 <body>
 
+<body background="css/images/chicago4.jpg">
 <div id="top">
-  <div class="shell">
-    <div id="header">
-      <h1 id="logo"><a href="login.php">Online Store</a></h1>
-      <div id="navigation">
-        <ul>
-            <li><a href="login.php">Home</a></li>
-            <li><a href="about.php">About the Database</a></li>
-            <li><a href="contact.php">Contact</a></li>
-          <li><a href="logout.php">Logout</a><li>
-        </ul>
-      </div>
+    <!--    <div class="shell">-->
+    <div>
+        <h1 id="logo"><a href="login.php">Online Database</a></h1>
+        <div id="navigation">
+            <ul>
+                <li><a href="login.php">Home</a></li>
+                <li><a href="about.php">About the Database</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </div>
 
 <p>CONTACT INFORMATION</p><br> 

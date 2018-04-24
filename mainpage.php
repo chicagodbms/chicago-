@@ -8,8 +8,6 @@ session_start();
 <title> Online Crime Database | Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Enliven Screen Sign In Form template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs Sign up Web Templates,
- Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Custom Theme files -->
@@ -34,18 +32,25 @@ session_start();
 <!--				<a href="#" class="hvr-shutter-out-vertical facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span>Sign in with Facebook</span></a>-->
 <!--				<a href="#" class="hvr-shutter-out-vertical twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span>Sign in with Twitter</span></a>-->
 <!--				</div>-->
+
+<!--                <form action="signup.php" method = "post">-->
+<!--                    <input type="submit" class="myButton" value="Sign up"/>-->
+<!--                </form>-->
 				<form action="#" method="post">
 					<div class="inputs-w3ls">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
-						<input type="email" name="Email" placeholder="Email" required=""/>
+						<input type="email" name="Email" placeholder="Username" required=""/>
 					</div>
 					<div class="inputs-w3ls">
 						<i class="fa fa-key" aria-hidden="true"></i>
 						<input type="password" name="Password" placeholder="Password" required=""/>
 					</div>
 					<input type="submit" value="Sign In">
-                    <input type="submit" value="Sign Up">
-				</form>	
+<!--                    <input type="submit" value="Sign Up">-->
+				</form>
+                <form action="signup.php" method = "post">
+                    <input type="submit" value="Sign up"/>
+                </form>
 			</div>
 
                 <div style="height=10px"><p> &nbsp </p></div>
@@ -59,15 +64,18 @@ session_start();
                 <form action="#" method="post">
                     <div class="inputs-w3ls">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <input type="email" name="Email" placeholder="Email" required=""/>
+                        <input type="email" name="Email" placeholder="Username" required=""/>
                     </div>
                     <div class="inputs-w3ls">
                         <i class="fa fa-key" aria-hidden="true"></i>
                         <input type="password" name="Password" placeholder="Password" required=""/>
                     </div>
                     <input type="submit" value="Sign In">
-                    <input type="submit" value="Sign Up">
+<!--                    <input type="submit" value="Sign Up">-->
                 </form>
+<!--                <form action="signup.php" method = "post">-->-->
+<!--                    <input type="submit" value="Sign up"/>-->
+<!--                </form>-->
             </div>
 
 			<!-- //login -->

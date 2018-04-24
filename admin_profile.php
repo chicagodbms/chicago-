@@ -86,7 +86,7 @@
     echo "<p>Please choose what you would like to do today:</p>";
     echo "<a href = 'admin_change_password.php'>Change password</a>&nbsp;&nbsp;&nbsp;&nbsp";
 		echo "<a href = 'manage_order.php'>Manage orders</a>&nbsp;&nbsp;&nbsp;&nbsp";
-    echo "<a href = 'manage_products.php'>Manage products</a>&nbsp;&nbsp;&nbsp;&nbsp";
+    echo "<a href = 'manage_case%20.php'>Manage products</a>&nbsp;&nbsp;&nbsp;&nbsp";
     echo "<a href = 'manage_stars.php'>Manage Stars</a>&nbsp;&nbsp;&nbsp;&nbsp";
     echo "<a href = 'logout.php'>Logout</a></p>";
   }

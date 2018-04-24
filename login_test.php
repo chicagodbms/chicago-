@@ -34,36 +34,16 @@
         </div>
 </div>
 
-<!--         End Header-->
-<!--         Slider-->
-<!--        remove the slider-->
-<!--        <div id="slider">-->
-<!--            <div id="slider-holder">-->
-<!--                <ul>-->
-<!--                    <li><img src="css/images/slide1.jpg"  /></li>-->
-<!--                    <li><img src="css/images/slide2.jpg" alt="" /></li>-->
-<!--                    <li><img src="css/images/slide1.jpg" alt="" /></li>-->
-<!--                    <li><img src="css/images/slide2.jpg" alt="" /></li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--            <div id="slider-nav"> <a href="#" class="prev">Previous</a> <a href="#" class="next">Next</a> </div>-->
-<!--        </div>-->
-<!--         End Slider-->
-<!--    </div>-->
-
 <div class="main">
     <br>
 
     <p> Welcome to our online crime database!</p><br>
 
-    <?php
-    echo"______Customers______";
-    ?>
-
-    <p>Please log in before using</p>
+  
+    <p>Please login before using</p>
     <form action="cust_profile.php" method="post">
-        Customer Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<input type="text" name="cust_email" /> <br>
-        Customer Password: <input type="password" name="cust_password" /> <br>
+        Account: <input type="text" name="account" /> <br>
+        Password: <input type="password" name="password" /> <br>
         <input type="submit" class="myButton" value="Sign in"/> <br>
     </form>
 

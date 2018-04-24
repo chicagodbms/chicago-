@@ -6,7 +6,7 @@ session_start();
 
 <head>
 	<title>
-		Online Soccer Shoes Store | Finish Customer Signup
+		 Finish Customer Signup
 	</title>
   <link rel="stylesheet" href="css/style_all.css" type="text/css" media="all" />
 </head>
@@ -15,7 +15,7 @@ session_start();
 <div id="top">
   <div class="shell">
     <div id="header">
-      <h1 id="logo"><a href="login.php">Online Store</a></h1>
+      <h1 id="logo"><a href="mainpage.php">Online Store</a></h1>
       <div id="navigation">
         <ul>
             <li><a href="login.php">Home</a></li>
@@ -29,19 +29,14 @@ session_start();
 </div>
 
 <?php
-  $already_email = array();
-  $email = $_POST['email'];
+  $already_name = array();
   $name = $_POST['name'];
   $password = $_POST['password'];
-  $position = $_POST['position'];
-  $admire_star = $_POST['admire_star'];
-  $addr = $_POST['address'];
-
   ini_set('display_errors', 'On');
-  $db = "";
-  $conn = oci_connect("", "", $db);
+  $db = '//oracle.cise.ufl.edu/orcl';
+  $conn = oci_connect("weiw", "!Zzz2018", $db);
    
-  $query = "select Customer_Email from Customer";       
+  $query = "select UNAME from CRIMEUSER";       
   $stmt = oci_parse($conn, $query);
   oci_execute($stmt, OCI_DEFAULT);
   
@@ -50,13 +45,13 @@ session_start();
 	}
   oci_close($conn);
   
-  $email_used=0;
-  for($i = 0; $i < sizeof($already_email); $i++){
-    if ($already_email[$i] == $email)
-      $email_used = 1;     
+  $name_used=0;
+  for($i = 0; $i < sizeof($already_name); $i++){
+    if ($already_name[$i] == $name)
+      $name_used = 1;     
   }
 
-  if($email_used)
+  if($name_used)
   {
     echo "<p>This email has already been used. </p>
     <p>Click <a href = 'login.php'>here</a> to go back.</p>";
@@ -64,26 +59,18 @@ session_start();
   else 
   {
     ini_set('display_errors', 'On');
-    $db = "";
-    $conn = oci_connect("", "", $db);
+  $db = '//oracle.cise.ufl.edu/orcl';
+  $conn = oci_connect("weiw", "!Zzz2018", $db);
     
-    $query = "insert into Customer values ( '".$email."', '".$name."', '".$password."', '".$position."', '".$addr."' ) ";
+    $query = "insert into CRIMEUSER values ( '".$name."', '".$password."','".'0'."' ) ";
     $stmt = oci_parse($conn, $query);
     oci_execute($stmt, OCI_DEFAULT);
     oci_commit($conn);
     oci_close($conn);
-    
     ini_set('display_errors', 'On');
-    $db = "";
-    $conn = oci_connect("", "", $db);
-    
-    $query = "insert into Admire values ( '".$email."', '".$admire_star."' ) ";
-    $stmt = oci_parse($conn, $query);
-    oci_execute($stmt, OCI_DEFAULT);
-    oci_commit($conn);
-    oci_close($conn);     
+         
     echo "<p> Account is successfully created. </p>
-    <p>Click <a href = 'login.php'>here</a> to go back.</p>";
+    <p>Click <a href = 'mainpage.php'>here</a> to go back.</p>";
   }
 ?>
 

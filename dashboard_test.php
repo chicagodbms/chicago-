@@ -87,12 +87,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <div id="menu" style="background-color:#bcbcbc;height:800px;width: 30%;float:left">
 <!--    <p>database Operation</p>-->
-    <form action="search_case.php" method="post">
-<!--        Customer Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<input type="text" name="cust_email" /> <br>-->
-<!--        Customer Password: <input type="password" name="cust_password" /> <br>-->
+    <form action="crimedatabase.php" method="post">
+        Case_Number: <input type="text" name="case_number" /> <br>
        <p>search case number < 5</p>
-        <input type="submit" class="myButton" value="search2"/> <br>
+        <input type="submit" class="myButton" value="search case_number"/> <br>
     </form>
+
+<form action="DaterangeSearch.php" method="post">
+        Date_Start:<input type="text" name="Date_Start" /> <br>
+        Date_End:<input type="text" name="Date_End" /> <br>
+
+        <input type="submit" class="myButton" value="Search"/> <br>
+    </form>
+
 </div>
 
 <div style="height:600px;width: 0.5%;float:left">
@@ -103,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!--    <p>content</p>-->
     <div id="map"></div>
-
+    <>
 </div>
 
     <div id="chart" style="background-color:#bcbcbc; height:800px;width: 22%;px;float:right">
