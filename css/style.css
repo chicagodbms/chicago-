@@ -82,7 +82,7 @@ h1#logo a{ display:block; height: 38px; text-indent: -4000px; background:url(ima
 	box-shadow:inset 0px 1px 0px 0px #97c4fe;
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
 	background:-moz-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
-	background:-webkit-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-webkit-linear-gradient(top, blue 5%, #1e62d0 100%);
 	background:-o-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
 	background:-ms-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
 	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
