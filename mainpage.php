@@ -36,7 +36,7 @@ session_start();
 <!--                <form action="signup.php" method = "post">-->
 <!--                    <input type="submit" class="myButton" value="Sign up"/>-->
 <!--                </form>-->
-				<form action="#" method="post">
+				<form action="dashboard.php" method="post">
 					<div class="inputs-w3ls">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
 						<input type="email" name="Email" placeholder="Username" required=""/>
@@ -61,7 +61,7 @@ session_start();
 <!--                    <a href="#" class="hvr-shutter-out-vertical facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span>Sign in with Facebook</span></a>-->
 <!--                    <a href="#" class="hvr-shutter-out-vertical twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span>Sign in with Twitter</span></a>-->
 <!--                </div>-->
-                <form action="#" method="post">
+                <form action="adminpage.php" method="post">
                     <div class="inputs-w3ls">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <input type="email" name="Email" placeholder="Username" required=""/>

@@ -57,7 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 
-<body style="background-color: beige">
+<body style="background-color:gainsboro">
 
 <div id="top">
     <!--    <div class="shell">-->
@@ -87,12 +87,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <div id="menu" style="background-color:#bcbcbc;height:800px;width: 30%;float:left">
 <!--    <p>database Operation</p>-->
-    <form action="search_case.php" method="post">
+    <form action="dashboard.php" method="post">
 <!--        Customer Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<input type="text" name="cust_email" /> <br>-->
 <!--        Customer Password: <input type="password" name="cust_password" /> <br>-->
        <p>search case number < 5</p>
         <input type="submit" class="myButton" value="search2"/> <br>
     </form>
+    <form action="DaterangeSearch.php" method="post">
+        Date_Start:<input type="text" name="Date_Start" /> <br>
+        Date_End:<input type="text" name="Date_End" /> <br>
+
+        <input type="submit" class="myButton" value="Search"/> <br>
+    </form>
+    <form action="TotalCrime.php" method="post">
+
+        <input type="submit" class="myButton" value="TotalCrime"/> <br>
+    </form>
+    <form action="update.php" method="post">
+        CASENUMBER:<input type="text" name="CASENUMBER" /> <br>
+        ADDRESS:<input type="text" name="ADDRESS" /> <br>
+        IUCR:<input type="text" name="IUCR" /> <br>
+        ARRESTED:<input type="text" name="ARRESTED" /> <br>
+        DOMESTIC:<input type="text" name="DOMESTIC" /> <br>
+        C_BEAT:<input type="text" name="C_BEAT" /> <br>
+        WARD:<input type="text" name="WARD" /> <br>
+        TIME_STAMP:<input type="text" name="TIME_STAMP" /> <br>
+        LAT:<input type="text" name="LAT" /> <br>
+        LONG:<input type="text" name="LONG" /> <br>
+        <input type="submit" class="myButton" value="TotalCrime"/> <br>
+    </form>
+
 </div>
 
 <div style="height:600px;width: 0.5%;float:left">
