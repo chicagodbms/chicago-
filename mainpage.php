@@ -12,7 +12,7 @@ session_start();
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Custom Theme files -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<link href="css/loginstyle.css" rel='stylesheet' type='text/css' />
+<!--<link href="css/loginstyle.css" rel='stylesheet' type='text/css' />-->
 <!--fonts-->
     <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
@@ -48,7 +48,7 @@ session_start();
 					<input type="submit" value="Sign In">
 <!--                    <input type="submit" value="Sign Up">-->
 				</form>
-                <form action="signupold.php" method = "post">
+                <form action="signup.php" method = "post">
                     <input type="submit" value="Sign up"/>
                 </form>
 			</div>

@@ -28,7 +28,7 @@ Online Crime Database | Login
         /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
         #map {
-            height: 70%;
+            height: 60%;
         }
         /* Optional: Makes the sample page fill the window. */
         /*html, body {*/
@@ -77,7 +77,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <div style="10px">&nbsp</div>
 
-<div id="menu" style="background-color:#bcbcbc;height:800px;width: 27%;float:left">
+<div id="menu" style="background-color:#bcbcbc;height:110%;width: 27%;float:left">
 
 
 <!--    <p>database Operation</p>-->
@@ -115,28 +115,63 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="sub-w3lsright agileits-w3layouts">
             <form action="#" method="post">
                 <input type="text"  class="name" name="name" placeholder="Case Number" required="">
-
+                <input type="submit" value="Search">
+            </form>
+            <form action="#" method="post">
+                <div class="clear"> </div>
+                <div>&nbsp;</div>
+                <input type="text"  class="name" name="name" placeholder="Start date: dd-mm-yyyy" required="">
+                <input type="text"  class="name" name="name" placeholder="End date: dd-mm-yyyy" required="">
+                <input type="submit" value="Search">
+            </form>
+            <form action="#" method="post">
                 <div class="clear"> </div>
                 <p>Advanced Filter</p>
                 <div class="form-control">
                     <div class="main-row">
-                        <select name="country">
+                        <select name="time">
                             <option value="none" selected="" disabled="">Select Time</option>
                             <option value="Job-2">0-3 AM/option>
                             <option value="Job-3">3-6 AM</option>
                             <option value="Job-4">6-9 AM</option>
                             <option value="Job-5">9-12 AM</option>
                             <option value="Job-6">0-3 PM</option>
-                            <option value="Job-6">3-6 PM</option>
-                            <option value="Job-6">6-9 PM</option>
-                            <option value="Job-6">9-12 PM</option>
+                            <option value="Job-7">3-6 PM</option>
+                            <option value="Job-8">6-9 PM</option>
+                            <option value="Job-9">9-12 PM</option>
+                        </select>
+                    </div>
+                    <div class="main-row">
+                        <select name="district">
+                            <option value="none" selected="" disabled="">Select District</option>
+                            <option value="Job-2">district 1</option>
+                            <option value="Job-3">district 2</option>
+                            <option value="Job-4">district 3</option>
+                            <option value="Job-5">district 4</option>
+                            <option value="Job-6">district 5</option>
+                            <option value="Job-7">district 6</option>
+                            <option value="Job-8">district 7</option>
+                            <option value="Job-9">district 8</option>
+                            <option value="Job-10">district 9</option>
+                            <option value="Job-11">district 10</option>
+                            <option value="Job-12">district 11</option>
+                            <option value="Job-13">district 12</option>
                         </select>
                     </div>
                     <div class="form-control">
                         <div class="main-row">
-                            <select name="country">
-                                <option value="none" selected="" disabled="">Arrest Domes</option>
-
+                            <select name="domestic">
+                                <option value="none" selected="" disabled="">Domestic</option>
+                                <option value="Job-2">True</option>
+                                <option value="Job-3">False</option>
+                            </select>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <div class="main-row">
+                            <select name="arrest">
+                                <option value="none" selected="" disabled="">Arrest</option>
                                 <option value="Job-2">True</option>
                                 <option value="Job-3">False</option>
                             </select>
@@ -146,7 +181,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="content-wthree2">
                         <div class="grid-w3layouts1">
                             <div class="w3-agile1">
-                                <label class="rating">Select Type</label>
+                                <label class="rating">&nbsp</label>
+                                <label class="rating">Select Crime Type</label>
                                 <ul>
                                     <li>
                                         <input type="radio" id="a-option" name="selector1">
@@ -175,25 +211,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </div>
                 <div class="clear"> </div>
-                <input type="submit" value="Send">
+                <input type="submit" value="Search">
             </form>
         </div>
+
 <!--    </div>-->
 
 </div>
 
-<div style="height:600px;width: 0.5%;float:left">
+<div style="height:110%;width: 0.5%;float:left">
 <!--    <p>database Operation</p>-->
 </div>
-<div id="content" style="height:800px;width:50%;px;float:left">
+<div id="content" style=" height:110%;width:50%;px;float:left">
 <!--     style="background-color:beige;-->
 
 <!--    <p>content</p>-->
     <div id="map"></div>
-
+    <div><div id="txtHint">Search result will be listed here</div> </div>
 </div>
 
-    <div id="chart" style="background-color:#bcbcbc; height:800px;width: 22%;px;float:right">
+    <div id="chart" style="background-color:#bcbcbc; height:110%;width: 22%;px;float:right">
         <div class="main">
 <!--            <div class="w3_agile_main_grids">-->
 <!--            <div class="w3_agile_main_grid_left">-->

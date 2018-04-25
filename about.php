@@ -37,6 +37,7 @@
   <a href="about.php">About the Store</a> <span>|</span>
   <a href="contact.php">Contact</a> <span>|</span>
   <a href="logout.php">Logout</a>
+
 </div>
 
 </body>
