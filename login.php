@@ -68,7 +68,7 @@
     </form>
 
     <br><p>Please signup if you do not have an account</p>
-    <form action="signup.php" method = "post">
+    <form action="signupold.php" method = "post">
         <input type="submit" class="myButton" value="Sign up"/>
     </form>
 

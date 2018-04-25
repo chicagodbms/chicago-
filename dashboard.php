@@ -73,56 +73,119 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 
-<!--<div class="main">-->
-<!--    <br>-->
-<!---->
-<!--    <p> Welcome to our online crime database!</p><br>-->
-<!---->
-<!--    --><?php
-//    echo"______Customers______";
-//    ?>
-<!--</div>-->
+
 
 <div style="10px">&nbsp</div>
 
-<div id="menu" style="background-color:#bcbcbc;height:800px;width: 30%;float:left">
+<div id="menu" style="background-color:#bcbcbc;height:800px;width: 27%;float:left">
+
+
 <!--    <p>database Operation</p>-->
-    <form action="dashboard.php" method="post">
-<!--        Customer Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<input type="text" name="cust_email" /> <br>-->
-<!--        Customer Password: <input type="password" name="cust_password" /> <br>-->
-       <p>search case number < 5</p>
-        <input type="submit" class="myButton" value="search2"/> <br>
-    </form>
-    <form action="DaterangeSearch.php" method="post">
-        Date_Start:<input type="text" name="Date_Start" /> <br>
-        Date_End:<input type="text" name="Date_End" /> <br>
+<!--    <form action="dashboard.php" method="post">-->
+<!--<!--        Customer Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<input type="text" name="cust_email" /> <br>-->
+<!--<!--        Customer Password: <input type="password" name="cust_password" /> <br>-->
+<!--       <p>search case number < 5</p>-->
+<!--        <input type="submit" class="myButton" value="search2"/> <br>-->
+<!--    </form>-->
+<!--    <form action="DaterangeSearch.php" method="post">-->
+<!--        Date_Start:<input type="text" name="Date_Start" /> <br>-->
+<!--        Date_End:<input type="text" name="Date_End" /> <br>-->
+<!---->
+<!--        <input type="submit" class="myButton" value="Search"/> <br>-->
+<!--    </form>-->
+<!--    <form action="TotalCrime.php" method="post">-->
+<!---->
+<!--        <input type="submit" class="myButton" value="TotalCrime"/> <br>-->
+<!--    </form>-->
+<!--    <form action="update.php" method="post">-->
+<!--        CASENUMBER:<input type="text" name="CASENUMBER" /> <br>-->
+<!--        ADDRESS:<input type="text" name="ADDRESS" /> <br>-->
+<!--        IUCR:<input type="text" name="IUCR" /> <br>-->
+<!--        ARRESTED:<input type="text" name="ARRESTED" /> <br>-->
+<!--        DOMESTIC:<input type="text" name="DOMESTIC" /> <br>-->
+<!--        C_BEAT:<input type="text" name="C_BEAT" /> <br>-->
+<!--        WARD:<input type="text" name="WARD" /> <br>-->
+<!--        TIME_STAMP:<input type="text" name="TIME_STAMP" /> <br>-->
+<!--        LAT:<input type="text" name="LAT" /> <br>-->
+<!--        LONG:<input type="text" name="LONG" /> <br>-->
+<!--        <input type="submit" class="myButton" value="TotalCrime"/> <br>-->
+<!--    </form>-->
 
-        <input type="submit" class="myButton" value="Search"/> <br>
-    </form>
-    <form action="TotalCrime.php" method="post">
+<!--    <div class="main-agilerow">-->
+        <div class="sub-w3lsright agileits-w3layouts">
+            <form action="#" method="post">
+                <input type="text"  class="name" name="name" placeholder="Case Number" required="">
 
-        <input type="submit" class="myButton" value="TotalCrime"/> <br>
-    </form>
-    <form action="update.php" method="post">
-        CASENUMBER:<input type="text" name="CASENUMBER" /> <br>
-        ADDRESS:<input type="text" name="ADDRESS" /> <br>
-        IUCR:<input type="text" name="IUCR" /> <br>
-        ARRESTED:<input type="text" name="ARRESTED" /> <br>
-        DOMESTIC:<input type="text" name="DOMESTIC" /> <br>
-        C_BEAT:<input type="text" name="C_BEAT" /> <br>
-        WARD:<input type="text" name="WARD" /> <br>
-        TIME_STAMP:<input type="text" name="TIME_STAMP" /> <br>
-        LAT:<input type="text" name="LAT" /> <br>
-        LONG:<input type="text" name="LONG" /> <br>
-        <input type="submit" class="myButton" value="TotalCrime"/> <br>
-    </form>
+                <div class="clear"> </div>
+                <p>Advanced Filter</p>
+                <div class="form-control">
+                    <div class="main-row">
+                        <select name="country">
+                            <option value="none" selected="" disabled="">Select Time</option>
+                            <option value="Job-2">0-3 AM/option>
+                            <option value="Job-3">3-6 AM</option>
+                            <option value="Job-4">6-9 AM</option>
+                            <option value="Job-5">9-12 AM</option>
+                            <option value="Job-6">0-3 PM</option>
+                            <option value="Job-6">3-6 PM</option>
+                            <option value="Job-6">6-9 PM</option>
+                            <option value="Job-6">9-12 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-control">
+                        <div class="main-row">
+                            <select name="country">
+                                <option value="none" selected="" disabled="">Arrest Domes</option>
+
+                                <option value="Job-2">True</option>
+                                <option value="Job-3">False</option>
+                            </select>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="content-wthree2">
+                        <div class="grid-w3layouts1">
+                            <div class="w3-agile1">
+                                <label class="rating">Select Type</label>
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="a-option" name="selector1">
+                                        <label for="a-option">type1</label>
+                                        <div class="check"></div>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="b-option" name="selector1">
+                                        <label for="b-option">type2</label>
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="c-option" name="selector1">
+                                        <label for="c-option">type3</label>
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="d-option" name="selector1">
+                                        <label for="d-option">type4</label>
+                                        <div class="check"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear"> </div>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+<!--    </div>-->
 
 </div>
 
 <div style="height:600px;width: 0.5%;float:left">
 <!--    <p>database Operation</p>-->
 </div>
-<div id="content" style="height:800px;width:47%;px;float:left">
+<div id="content" style="height:800px;width:50%;px;float:left">
 <!--     style="background-color:beige;-->
 
 <!--    <p>content</p>-->

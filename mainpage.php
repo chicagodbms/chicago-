@@ -48,7 +48,7 @@ session_start();
 					<input type="submit" value="Sign In">
 <!--                    <input type="submit" value="Sign Up">-->
 				</form>
-                <form action="signup.php" method = "post">
+                <form action="signupold.php" method = "post">
                     <input type="submit" value="Sign up"/>
                 </form>
 			</div>

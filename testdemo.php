@@ -1,98 +1,112 @@
-<?php
-/**
- * Created by IntelliJ IDEA.
- * User: grandstar
- * Date: 18/4/21
- * Time: 下午3:55
- */?>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Online Crime Database | </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta name="keywords" content="Travel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- bootstrap-css -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstrap-css -->
-<!-- css -->
-<link rel="stylesheet" href="css/styletoolbar.css" type="text/css" media="all" />
-<!--// css -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet">
-<!-- //font-awesome icons -->
-<!-- font -->
-<link href="//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Raleway:100,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-<!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function($) {
-        $(".scroll").click(function(event){
-            event.preventDefault();
-            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-        });
-    });
-</script>
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<![endif]-->
+    <title>Car Rental Form Flat Responsive Widget Template :: w3layouts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Car Rental Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Custom Theme files -->
+    <link href="css/styletest.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- //Custom Theme files -->
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Niconne&amp;subset=latin-ext" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Reem+Kufi&amp;subset=arabic" rel="stylesheet">
+    <!-- //web font -->
 </head>
 <body>
-<!-- banner -->
-<div class="banner-1">
-    <div class="w3-header-bottom">
-        <div class="container">
-            <div class="w3layouts-logo">
-                <h1>
-                    <a href="index.html">Travel </a>
-                </h1>
-            </div>
-            <div class="top-nav">
-                <nav class="navbar navbar-default">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li class="first-list"><a href="dashboard.php">Home</a></li>
-                            <li><a class="active" href="about.php">About the database</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-<!--                            <li><a href="gallery.html">Gallery</a></li>-->
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">Pages <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="icons.html">Icons</a></li>
-                                    <li><a href="typography.html">Short Codes</a></li>
-                                </ul>
-                            </li>
+<div >
+    <h1>Car Rental Form</h1>
+    <!-- main -->
+    <div class="main-agilerow">
+        <div class="sub-w3lsright agileits-w3layouts">
+            <h2>Find The Right Car Now</h2>
+            <form action="#" method="post">
+                <input type="text"  class="name" name="name" placeholder="Case Number" required="">
 
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                        <div class="clearfix"> </div>
+                <div class="clear"> </div>
+                <div class="form-control">
+                    <div class="main-row">
+                        <select name="country">
+                            <option value="none" selected="" disabled="">Select Brand</option>
+                            <option value="Job-2">Acura</option>
+                            <option value="Job-3">Alfa Romeo</option>
+                            <option value="Job-4">Aston Martin</option>
+                            <option value="Job-5">Audi</option>
+                            <option value="Job-6">Bentley</option>
+                            <option value="Job-6">BMW</option>
+                            <option value="Job-6">Bugatti</option>
+                            <option value="Job-6">Buick</option>
+                            <option value="Job-6">Land Rover</option>
+                        </select>
+                        <i></i>
                     </div>
-                </nav>
-            </div>
-            <div class="agileinfo-social-grids">
-<!--                <ul>-->
-<!--                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
-<!--                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-<!--                    <li><a href="#"><i class="fa fa-rss"></i></a></li>-->
-<!--                    <li><a href="#"><i class="fa fa-vk"></i></a></li>-->
-<!--                </ul>-->
-            </div>
-            <div class="clearfix"> </div>
+                    <div class="form-control">
+                        <div class="main-row">
+                            <select name="country">
+                                <option value="none" selected="" disabled="">Arrest Dome</option>
+
+                                <option value="Job-2">New Car</option>
+                                <option value="Job-3">Used Car</option>
+                            </select>
+                            <i></i>
+                        </div>
+                    </div>
+                    <div class="content-wthree2">
+                        <div class="grid-w3layouts1">
+                            <div class="w3-agile1">
+                                <label class="rating">Select Your Price</label>
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="a-option" name="selector1">
+                                        <label for="a-option">Below $40,000</label>
+                                        <div class="check"></div>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="b-option" name="selector1">
+                                        <label for="b-option">$43,000</label>
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="c-option" name="selector1">
+                                        <label for="c-option">$95,000</label>
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="d-option" name="selector1">
+                                        <label for="d-option">$45,000</label>
+                                        <div class="check"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear"> </div>
+                <input type="submit" value="Send">
+            </form>
         </div>
+        <div class="clear"> </div>
     </div>
+    <!-- //main -->
+    <!-- copyright -->
+    <div class="copyw3-agile">
+        <p> © 2017 Car Rental Form. All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts.</a></p>
+    </div>
+    <!-- //copyright -->
 </div>
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script src="js/jquery.vide.min.js"></script>
+<!-- //js -->
+
 </body>
 </html>
