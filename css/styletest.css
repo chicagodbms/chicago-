@@ -1,112 +1,10 @@
-* { padding:0; margin:0; outline:0; }
-body {
-	/*background:beige;*/
-
-
-	font-family: Arial, sans-serif;
-	font-size:20px;
-	line-height:25px;
-	color:#6f6e6e;
-  text-align: center; 
-}
-
-
-input, textarea, select { font-family: Arial, sans-serif; font-size:20px; color:#333; }
-textarea { overflow:auto;}
-
-a img { border:0; }
-
-a { color:#890000; text-decoration: none; cursor:pointer; }
-a:hover { color:#333; }
-
-.left, .alignleft { float:left; display:inline; }
-.right, .alignright { float:right; display:inline; }
-
-.cl { font-size:0; line-height:0; clear:both; display:block; height:0; }
-
-.al { text-align: left; }
-.ar { text-align: right; }
-.ac { text-align: center; }
-
-h3 { font-size:15px; line-height:18px; color:#bcbcbc; text-transform: uppercase; }
-
-h1#logo { color: white; font-size:0; line-height:0; width:79px; height:40px; float:left; }
-h1#logo a{ color: white; display:block; height: 38px; text-indent: -4000px; background:url(images/logo.gif); background-size: 100%; }
-
-#navigation { float:right; white-space:nowrap; }
-#navigation ul{ list-style-type: none; padding-top:10px;}
-#navigation ul li{ float:left; display:inline; border-right:solid 1px #5f5f5f; padding-right:8px; margin-right:8px;}
-#navigation ul li.last{ border-right:0; padding-right:0; margin-right:0;}
-#navigation ul li a{ color: white;}
-#navigation ul li a:hover,
-#navigation ul li a.active { color:#ffd900; }
-
-.shell { width:980px; margin:0 auto; }
-
-#top {
-	height: 40px; background:mediumblue; }
-#header { height:40px; }
-
-#slider { width:980px; height:418px; position:relative; overflow:hidden; }
-#slider-holder { width:980px; height:418px; position:relative; overflow:hidden; }
-#slider-holder ul{ width:980px; height:418px; position:relative; overflow:hidden; list-style-type: none;}
-#slider-holder .jcarousel-clip{ width:980px; height:418px; position:relative; overflow:hidden; }
-
-#slider-holder ul li{ width:980px; height:418px; position:relative; overflow:hidden; float:left; display:inline; }
-#slider-nav a{ position:absolute; top:180px; font-size:0; line-height:0; z-index:2; width:58px; height:58px; text-indent: -4000px;}
-#slider-nav a.prev{ background:url(images/prev.gif); left:0;}
-#slider-nav a.next{ background:url(images/next.gif); right:0;}
-
-#footer { border-top:dashed 1px #cfcfcf; margin-top:20px; padding:10px 0; color:#8e8e8e;}
-#footer a{ color:#8e8e8e; }
-#footer a:hover{ color:#9d0000; }
-#footer span{ padding:0 5px;}
-
-/*#map {*/
-	/*height: 100%;*/
-/*}*/
-
-.myButton {
-	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
-	background:-moz-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
-	background:-webkit-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
-	background:-o-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
-	background:-ms-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
-	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0',GradientType=0);
-	background-color:#3d94f6;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:1px solid #337fed;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:5px 20px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #1570cd;
-}
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6));
-	background:-moz-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
-	background:-webkit-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
-	background:-o-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
-	background:-ms-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
-	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6',GradientType=0);
-	background-color:#1e62d0;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/*-- reset --*/
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 ol,ul{list-style:none;margin:0px;padding:0px;}
@@ -147,7 +45,7 @@ h1 {
 }
 /*-- main --*/
 .main-agilerow {
-	width: 97%;
+	width: 34%;
 	margin: 1.5em auto;
 }
 .w3l-po-image {

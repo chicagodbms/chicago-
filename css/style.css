@@ -26,6 +26,17 @@ a:hover { color:#333; }
 .al { text-align: left; }
 .ar { text-align: right; }
 .ac { text-align: center; }
+.banner-1{
+	background: url(../images/1.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	min-height: 300px;
+	position: relative;
+	background-attachment: fixed;
+}
+.w3-header-bottom {
+	background:rgba(56, 57, 58, 0.54);
+	padding: 1em 0em;
+}
 
 h3 { font-size:15px; line-height:18px; color:#bcbcbc; text-transform: uppercase; }
 
@@ -57,10 +68,10 @@ h1#logo a{ display:block; height: 38px; text-indent: -4000px; background:url(ima
 	height: 40px; background:mediumblue; }
 #header { height:40px; }
 
-#slider { width:980px; height:418px; position:relative; overflow:hidden; }
-#slider-holder { width:980px; height:418px; position:relative; overflow:hidden; }
-#slider-holder ul{ width:980px; height:418px; position:relative; overflow:hidden; list-style-type: none;}
-#slider-holder .jcarousel-clip{ width:980px; height:418px; position:relative; overflow:hidden; }
+#slider { width:980px; height:120%; position:relative; overflow:hidden; }
+#slider-holder { width:980px; height:120%; position:relative; overflow:hidden; }
+#slider-holder ul{ width:980px; height:120%; position:relative; overflow:hidden; list-style-type: none;}
+#slider-holder .jcarousel-clip{ width:980px; height:120%; position:relative; overflow:hidden; }
 
 #slider-holder ul li{ width:980px; height:418px; position:relative; overflow:hidden; float:left; display:inline; }
 #slider-nav a{ position:absolute; top:180px; font-size:0; line-height:0; z-index:2; width:58px; height:58px; text-indent: -4000px;}
@@ -115,4 +126,155 @@ h1#logo a{ display:block; height: 38px; text-indent: -4000px; background:url(ima
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+.top-nav ul li a {
+	margin: 0 0.4em !important;
+}
+.w3-header-bottom {
+	padding: 1em 0em;
+}
+.w3layouts-logo h1 i.fa.fa-shopping-bag {
+	left: 86%;
+}
+.top-nav {
+	width: 59%;
+}
+.agileinfo-social-grids {
+	width: 21%;
+}
+.grid figure figcaption {
+	font-size: 1em;
+}
+.w3-services-left-grid h3 {
+	font-size: 2.5em;
+	letter-spacing: 2px;
+}
+.w3-services-left-grid p {
+	font-size: 1em;
+	line-height: 1.8em;
+	letter-spacing: 0px;
+	color: #fff;
+	padding: 0 1em;
+}
+.w3-services-right-grid h3 {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.w3-services-right-grid {
+	margin: 0em 0 0 0;
+}
+.banner,.agile_dot_info {
+	min-height: 600px;
+}
+.banner-info {
+	padding: 8em 0 0 0;
+}
+.w3layouts-banner-info h3 span {
+	font-size: 2.8em;
+}
+.w3-services-left-grid h4 {
+	font-size: 1.2em;
+}
+.w3-team-grid {
+	width: 31.6%;
+}
+.view {
+	width: 225px;
+}
+.view .mask, .view .content {
+	width: 221px;
+}
+.ftr-menu {
+	float: right;
+	margin-top: 36px;
+}
+.banner-btm-g1, .banner-btm-g2  {
+	width: 87%;
+	float: none;
+	margin: 0 auto;
+}
+.banner_form_agileits form {
+	width: 56%;
+}
+top-nav {
+	float: right;
+	text-align: center;
+	width: 78%;
+	margin: 11px 0px 0 0px;
+}
+.top-nav ul li {
+	margin: 1.5em 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #e7e7e7;
+	border-top: transparent;
+}
+.top-nav ul {
+	background: rgba(10, 10, 10, 0.97);
+	z-index: 9999;
+	/* position: absolute; */
+	width: 100%;
+}
+.navbar-toggle {
+	float: right;
+	margin-right: 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color:rgba(151, 243, 2, 0);
+}
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.top-nav ul li {
+	display: block;
+	float: none;
+	margin: 1em 0;
+}
+.top-nav ul li a {
+	margin: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+	position: absolute;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.78);
+	z-index: 9999;
+}
+.w3-team-grid {
+	width:30.5%;
+	float: left;
+}
+.w3-team-grid h3 {
+	font-size: 21px;
+}
+.footer-grids1 {
+	width: 42%;
+	padding: 3.7em;
+}
+.footer-grids {
+	width: 40%;
+}
+.logo2 h3 {
+	font-size: 20px;
+}
+.w3layouts-logo h1 i.fa.fa-shopping-bag {
+	left: 110%;
+}
+.view,.view .mask {
+	width:224px;
+}
+.w3layouts_mail_grid_right input[type="submit"], .w3layouts_mail_grid_right input[type="reset"] {
+	width: 26%;
+}
+.about-bottom-text {
+	padding: 4em 3em;
+}
+.w3layouts-logo {
+	width: 100%;
+	float: left;
+	text-align: center;
 }
