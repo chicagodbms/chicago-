@@ -28,7 +28,7 @@ Online Crime Database | Login
         /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
         #map {
-            height: 60%;
+            height: 70%;
         }
         /* Optional: Makes the sample page fill the window. */
         /*html, body {*/
@@ -53,11 +53,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link rel="stylesheet" href="css/morris.css">
     <!-- //area-chart -->
     <link href="css/datachartstyle.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto:100,1005i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 
 </head>
 
-<body style="background-color:gainsboro">
+<body style="background-color: beige">
 
 <div id="top">
     <!--    <div class="shell">-->
@@ -73,174 +73,137 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 
+<!--<div class="main">-->
+<!--    <br>-->
+<!---->
+<!--    <p> Welcome to our online crime database!</p><br>-->
+<!---->
+<!--    --><?php
+//    echo"______Customers______";
+//    ?>
+<!--</div>-->
 
+<div style="20px">&nbsp</div>
 
-<div style="10px">&nbsp</div>
-
-<div id="menu" style="background-color:#bcbcbc;height:110%;width: 27%;float:left">
-
-
+<div id="menu" style="background-color:#bcbcbc;height:100%;width: 30%;float:left">
 <!--    <p>database Operation</p>-->
-<!--    <form action="dashboard.php" method="post">-->
-<!--<!--        Customer Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<input type="text" name="cust_email" /> <br>-->
-<!--<!--        Customer Password: <input type="password" name="cust_password" /> <br>-->
-<!--       <p>search case number < 5</p>-->
-<!--        <input type="submit" class="myButton" value="search2"/> <br>-->
-<!--    </form>-->
-<!--    <form action="DaterangeSearch.php" method="post">-->
-<!--        Date_Start:<input type="text" name="Date_Start" /> <br>-->
-<!--        Date_End:<input type="text" name="Date_End" /> <br>-->
-<!---->
-<!--        <input type="submit" class="myButton" value="Search"/> <br>-->
-<!--    </form>-->
-<!--    <form action="TotalCrime.php" method="post">-->
-<!---->
-<!--        <input type="submit" class="myButton" value="TotalCrime"/> <br>-->
-<!--    </form>-->
-<!--    <form action="update.php" method="post">-->
-<!--        CASENUMBER:<input type="text" name="CASENUMBER" /> <br>-->
-<!--        ADDRESS:<input type="text" name="ADDRESS" /> <br>-->
-<!--        IUCR:<input type="text" name="IUCR" /> <br>-->
-<!--        ARRESTED:<input type="text" name="ARRESTED" /> <br>-->
-<!--        DOMESTIC:<input type="text" name="DOMESTIC" /> <br>-->
-<!--        C_BEAT:<input type="text" name="C_BEAT" /> <br>-->
-<!--        WARD:<input type="text" name="WARD" /> <br>-->
-<!--        TIME_STAMP:<input type="text" name="TIME_STAMP" /> <br>-->
-<!--        LAT:<input type="text" name="LAT" /> <br>-->
-<!--        LONG:<input type="text" name="LONG" /> <br>-->
-<!--        <input type="submit" class="myButton" value="TotalCrime"/> <br>-->
-<!--    </form>-->
+    <form action="crimedatabase.php" method="post">
+        Case_Number: <input type="text" name="case_number" placeholder="HY000000" /> <br>
+      
+        <input type="submit" class="myButton" value="search case_number"/> <br>
+    </form>
 
-<!--    <div class="main-agilerow">-->
-        <div class="sub-w3lsright agileits-w3layouts">
-            <form action="#" method="post">
-                <input type="text"  class="name" name="name" placeholder="Case Number" required="">
-                <input type="submit" value="Search">
-            </form>
-            <form action="#" method="post">
-                <div class="clear"> </div>
-                <div>&nbsp;</div>
-                <input type="text"  class="name" name="name" placeholder="Start date: dd-mm-yyyy" required="">
-                <input type="text"  class="name" name="name" placeholder="End date: dd-mm-yyyy" required="">
-                <input type="submit" value="Search">
-            </form>
-            <form action="#" method="post">
-                <div class="clear"> </div>
-                <p>Advanced Filter</p>
-                <div class="form-control">
-                    <div class="main-row">
-                        <select name="time">
-                            <option value="none" selected="" disabled="">Select Time</option>
-                            <option value="Job-2">0-3 AM/option>
-                            <option value="Job-3">3-6 AM</option>
-                            <option value="Job-4">6-9 AM</option>
-                            <option value="Job-5">9-12 AM</option>
-                            <option value="Job-6">0-3 PM</option>
-                            <option value="Job-7">3-6 PM</option>
-                            <option value="Job-8">6-9 PM</option>
-                            <option value="Job-9">9-12 PM</option>
-                        </select>
-                    </div>
-                    <div class="main-row">
-                        <select name="district">
-                            <option value="none" selected="" disabled="">Select District</option>
-                            <option value="Job-2">district 1</option>
-                            <option value="Job-3">district 2</option>
-                            <option value="Job-4">district 3</option>
-                            <option value="Job-5">district 4</option>
-                            <option value="Job-6">district 5</option>
-                            <option value="Job-7">district 6</option>
-                            <option value="Job-8">district 7</option>
-                            <option value="Job-9">district 8</option>
-                            <option value="Job-10">district 9</option>
-                            <option value="Job-11">district 10</option>
-                            <option value="Job-12">district 11</option>
-                            <option value="Job-13">district 12</option>
-                        </select>
-                    </div>
-                    <div class="form-control">
-                        <div class="main-row">
-                            <select name="domestic">
-                                <option value="none" selected="" disabled="">Domestic</option>
-                                <option value="Job-2">True</option>
-                                <option value="Job-3">False</option>
-                            </select>
-                            <i></i>
-                        </div>
-                    </div>
-                    <div class="form-control">
-                        <div class="main-row">
-                            <select name="arrest">
-                                <option value="none" selected="" disabled="">Arrest</option>
-                                <option value="Job-2">True</option>
-                                <option value="Job-3">False</option>
-                            </select>
-                            <i></i>
-                        </div>
-                    </div>
-                    <div class="content-wthree2">
-                        <div class="grid-w3layouts1">
-                            <div class="w3-agile1">
-                                <label class="rating">&nbsp</label>
-                                <label class="rating">Select Crime Type</label>
-                                <ul>
-                                    <li>
-                                        <input type="radio" id="a-option" name="selector1">
-                                        <label for="a-option">type1</label>
-                                        <div class="check"></div>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="b-option" name="selector1">
-                                        <label for="b-option">type2</label>
-                                        <div class="check"><div class="inside"></div></div>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="c-option" name="selector1">
-                                        <label for="c-option">type3</label>
-                                        <div class="check"><div class="inside"></div></div>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="d-option" name="selector1">
-                                        <label for="d-option">type4</label>
-                                        <div class="check"></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="clear"> </div>
-                <input type="submit" value="Search">
-            </form>
-        </div>
+<form action="DaterangeSearch.php" method="post">
+        Date_Start:<input type="text" name="Date_Start" placeholder="01-AUG-15"/> <br>
+        Date_End:<input type="text" name="Date_End" placeholder="01-AUG-16"/> <br>
 
-<!--    </div>-->
+        <input type="submit" class="myButton" value="Search"/> <br>
+</form>
+    <form action="TotalCrime.php" method="post">
+        
+        <input type="submit" class<form action="update.php" method="post">
+        CASENUMBER:<input type="text" name="CASENUMBER" placeholder="HY000000" /> <br>
+        ADDRESS:<input type="text" name="ADDRESS" placeholder="066XX S DREXEL AVE"/> <br>
+        IUCR:<input type="text" name="IUCR" placeholder="Integer" /> <br>
+        ARRESTED:<input type="text" name="ARRESTED" placeholder="TRUE/FALSE" /> <br>
+        DOMESTIC:<input type="text" name="DOMESTIC" placeholder="TRUE/FALSE" /> <br>
+       C_BEAT:<input type="text" name="C_BEAT" placeholder="Integer" /> <br>
+       WARD:<input type="text" name="WARD" placeholder="Integer" /> <br>
+        TIME_STAMP:<input type="text" name="TIME_STAMP" placeholder="01-AUG-15" /> <br>
+        LAT:<input type="text" name="LAT" placeholder="Float Number"  /> <br>
+        LONG:<input type="text" name="LONG"  placeholder="Float Number"/> <br>
+        <input type="submit" class="myButton" value="Update"/> <br>
+        <br>
+    </form>="myButton" value="TotalCrime"/> <br>
+    </form>
+    
+<form action="formselectdata.php" method="POST">
+ <select name="products[]" multiple>
+    <option>PUBLIC PEACE VIOLATION
+    <option>ASSAULT
+    <option>ARSON
+    <option>CONCEALED CARRY LICENSE VIOLATION
+    <option>PROSTITUTION
+    <option>KIDNAPPING
+    <option>CRIMINAL ABORTION
+    <option>DECEPTIVE PRACTICE
+    <option>OBSCENITY
+    <option>THEFT
+    <option>MOTOR VEHICLE THEFT
+    <option>WEAPONS VIOLATION
+    <option>NARCOTICS
+    <option>INTIMIDATION
+    <option>HOMICIDE
+    <option>STALKING
+    <option>HUMAN TRAFFICKING
+    <option>CRIMINAL TRESPASS
+    <option>CRIM SEXUAL ASSAULT
+    <option>PUBLIC INDECENCY
+    <option>OFFENSE INVOLVING CHILDREN
+    <option>SEX OFFENSE
+    <option>GAMBLING
+    <option>RITUALISM
+    <option>NON-CRIMINAL
+    <option>OTHER OFFENSE
+    <option>BURGLARY
+    <option>CRIMINAL DAMAGE
+    <option>OTHER NARCOTIC VIOLATION
+    <option>LIQUOR LAW VIOLATION
+    <option>CRIMINAL DAMAGE
+  </select>
+<br>
+<input type="submit" class="myButton" value="OK">
+</form>
+        <input type="checkbox" value="9" name="Type9"> DECEPTIVE PRACTICE<br>
+        <input type="checkbox" value="10" name="Type10"> OBSCENITY<br>
+        <input type="checkbox" value="11" name="Type11"> ROBBERY<br>
+        <input type="checkbox" value="12" name="Type12"> THEFT<br>
+        <input type="checkbox" value="13" name="Type13"> MOTOR VEHICLE THEFT<br>
+        <input type="checkbox" value="14" name="Type14"> WEAPONS VIOLATION<br>
+        <input type="checkbox" value="15" name="Type15"> NARCOTICS<br>
+        <input type="checkbox" value="16" name="Type16"> INTIMIDATION<br>
+        <input type="checkbox" value="17" name="Type17"> HOMICIDE<br>
+        <input type="checkbox" value="18" name="Type18"> STALKING<br>
+        <input type="checkbox" value="19" name="Type19"> HUMAN TRAFFICKING<br>
+        <input type="checkbox" value="20" name="Type20"> CRIMINAL TRESPASS<br>
+        <input type="checkbox" value="21" name="Type21"> CRIM SEXUAL ASSAULT<br>
+        <input type="checkbox" value="22" name="Type22"> PUBLIC INDECENCY<br>
+        <input type="checkbox" value="23" name="Type23"> OFFENSE INVOLVING CHILDREN<br>
+        <input type="checkbox" value="24" name="Type24"> SEX OFFENSE<br>
+        <input type="checkbox" value="25" name="Type25"> GAMBLING<br>
+        <input type="checkbox" value="26" name="Type26"> RITUALISM<br>
+        <input type="checkbox" value="27" name="Type27"> NON-CRIMINAL<br>
+        <input type="checkbox" value="28" name="Type28"> OTHER OFFENSE<br>
+        <input type="checkbox" value="29" name="Type29"> INTERFERENCE WITH PUBLIC OFFICER<br>
+        <input type="checkbox" value="30" name="Type30"> OTHER OFFENSE <br>
+        <input type="checkbox" value="31" name="Type31"> BURGLARY<br>
+        <input type="checkbox" value="32" name="Type32"> CRIMINAL DAMAGE<br>
+        <input type="checkbox" value="33" name="Type33"> OTHER NARCOTIC VIOLATION <br>
+        <input type="checkbox" value="34" name="Type34"> LIQUOR LAW VIOLATION<br>
+        <input type="checkbox" value="35" name="Type35"> CRIMINAL DAMAGE<br>
+        <input type="submit" class="myButton" value="Update"/> <br>
+
+    </form>
 
 </div>
 
-<div style="height:110%;width: 0.5%;float:left">
+<div style="height:600px;width: 0.5%;float:left"> 
 <!--    <p>database Operation</p>-->
 </div>
-<div id="content" style=" height:110%;width:50%;px;float:left">
+<div id="content" style="height:800px;width:47%;px;float:left">
 <!--     style="background-color:beige;-->
 
 <!--    <p>content</p>-->
     <div id="map"></div>
-    <div><div id="txtHint">Search result will be listed here</div> </div>
+    <>
 </div>
 
-    <div id="chart" style="background-color:#bcbcbc; height:110%;width: 22%;px;float:right">
+    <div id="chart" style="background-color:#bcbcbc; height:800px;width: 22%;px;float:right">
         <div class="main">
-<!--            <div class="w3_agile_main_grids">-->
-<!--            <div class="w3_agile_main_grid_left">-->
+
                 <div class="agile_donut_chart agileits_w3layouts_text">
-<!--                    <h3>Donut / pie-chart</h3>-->
                     <div class="exp"></div>
-<!--                </div>-->
-<!--            </div>-->
-        </div>
-    </div>
+
 <!--    <p>layer and chart</p>-->
 </div>
 
@@ -250,14 +213,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     $( document ).ready(function() {
 
-        /**
-         [
-         {"name" : "JavaScript", "hvalue" : 20 },
-         {"name" : "d3", "hvalue" : 2},
-         {"name" : "jQuery", "hvalue" : 25},
-         {"name" : "SVG", "hvalue" : 5}
-         ]
-         */
         function get_data() {
             var props = ['crime1', "crime2", "crime3", "crime4"];
             var out   = [];
@@ -320,7 +275,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div id="footer">
     <a href="login.php">Home</a> <span>|</span>
     <a href="about.php">About the Database</a> <span>|</span>
-    <a href="contact.php">Contact</a>
+    <br>
+    <a href="contact.php">Contact</a> <span>|</span>
+    <a href="TotalCrime.php">Total Number Crime</a>
 </div>
 
 <!---->

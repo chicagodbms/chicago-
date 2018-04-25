@@ -43,7 +43,7 @@
 ?>
 
 <p>Successfully Edited.</p>
-<p><a href='manage_case%20.php'>Back</a></p>
+<p><a href='manage_products.php'>Back</a></p>
 
 <div id="footer">
   <a href="admin_profile.php">Home</a> <span>|</span> 

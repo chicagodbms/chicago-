@@ -99,24 +99,17 @@ session_start();
 <div class="center-container">
         <!--background-->
         <!-- login -->
-        <h1>Please fill in the blank</h1>
+      
         <div class="login-w3l">
 
             <div class="login-form">
                 <h2 class="sub-head-w3-agileits">Sign Up</h2>
-                <!--				<div class="social-bottons-w3ls">-->
-                <!--				<a href="#" class="hvr-shutter-out-vertical facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span>Sign in with Facebook</span></a>-->
-                <!--				<a href="#" class="hvr-shutter-out-vertical twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span>Sign in with Twitter</span></a>-->
-                <!--				</div>-->
 
-                <!--                <form action="signup.php" method = "post">-->
-                <!--                    <input type="submit" class="myButton" value="Sign up"/>-->
-                <!--                </form>-->
-                <form action="mainpage.php" method="post">
+                 <form action="finish_signup.php" method="post">
                     <div class="inputs-w3ls">
-                        <h3 class="sub-head-w3-agileits">Please enter E-mail</h3>
+                        <h3 class="sub-head-w3-agileits">Please enter account</h3>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <input type="email" name="Email" placeholder="Username" required=""/>
+                        <input type="email" name="name" placeholder="Username"/>
                     </div>
                     <div>&nbsp</div>
                     <div>&nbsp</div>
@@ -124,25 +117,20 @@ session_start();
                     <div class="inputs-w3ls">
                         <h3 class="sub-head-w3-agileits">Please enter your passwords</h3>
                         <i class="fa fa-key" aria-hidden="true"></i>
-                        <input type="password" name="Password" placeholder="Password" required=""/>
+                        <input type="password" name="password" placeholder="Password" >
                     </div>
 
-                    <div class="inputs-w3ls">
-                        <h3 class="sub-head-w3-agileits">Please enter your passwords twice</h3>
-                        <i class="fa fa-key" aria-hidden="true"></i>
-                        <input type="password" name="Password" placeholder="Password" required=""/>
-                    </div>
 
                     <div>&nbsp</div>
                     <div>&nbsp</div>
-                    <input type="submit" value="Sign up">
-                    <!--                    <input type="submit" value="Sign Up">-->
+                    <input type="submit" value="Submit">
+                                       
                 </form>
-            </div>
-        </div>
+
+      
         <div class="clear"></div>
         <div id="footer">
-            <a href="login.php">Home</a> <span>|</span>
+            <a href="mainpage.php">Home</a> <span>|</span>
             <a href="about.php">About the Database</a> <span>|</span>
             <a href="contact.php">Contact</a>
         </div>

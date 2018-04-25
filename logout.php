@@ -9,17 +9,19 @@
 
 <body>
 <div id="top">
-    <!--    <div class="shell">-->
-    <div>
-        <h1 id="logo"><a href="login.php">Online Database</a></h1>
-        <div id="navigation">
-            <ul>
-                <li><a href="login.php">Home</a></li>
-                <li><a href="about.php">About the Database</a></li>
-                <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </div>
+  <div class="shell">
+    <div id="header">
+      <h1 id="logo"><a href="login.php">Online Store</a></h1>
+      <div id="navigation">
+        <ul>
+            <li><a href="login.php">Home</a></li>
+            <li><a href="about.php">About the Database</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          <li><a href="logout.php">Logout</a><li>
+        </ul>
+      </div>
     </div>
+  </div>
 </div>
 
 <?php

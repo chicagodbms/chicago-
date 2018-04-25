@@ -12,7 +12,7 @@ session_start();
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Custom Theme files -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<!--<link href="css/loginstyle.css" rel='stylesheet' type='text/css' />-->
+<link href="css/loginstyle.css" rel='stylesheet' type='text/css' />
 <!--fonts-->
     <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
@@ -36,7 +36,7 @@ session_start();
 <!--                <form action="signup.php" method = "post">-->
 <!--                    <input type="submit" class="myButton" value="Sign up"/>-->
 <!--                </form>-->
-				<form action="dashboard.php" method="post">
+				<form action="dashboard3.php" method="post">
 					<div class="inputs-w3ls">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
 						<input type="email" name="Email" placeholder="Username" required=""/>
@@ -56,24 +56,14 @@ session_start();
                 <div style="height=10px"><p> &nbsp </p></div>
 
             <div class="login-form" style="float:left">
-                <h2 class="sub-head-w3-agileits">Administrator Sign In</h2>
+               
 <!--                <div class="social-bottons-w3ls">-->
 <!--                    <a href="#" class="hvr-shutter-out-vertical facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span>Sign in with Facebook</span></a>-->
 <!--                    <a href="#" class="hvr-shutter-out-vertical twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span>Sign in with Twitter</span></a>-->
 <!--                </div>-->
-                <form action="adminpage.php" method="post">
-                    <div class="inputs-w3ls">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <input type="email" name="Email" placeholder="Username" required=""/>
-                    </div>
-                    <div class="inputs-w3ls">
-                        <i class="fa fa-key" aria-hidden="true"></i>
-                        <input type="password" name="Password" placeholder="Password" required=""/>
-                    </div>
-                    <input type="submit" value="Sign In">
+              
 <!--                    <input type="submit" value="Sign Up">-->
-                </form>
-<!--                <form action="signup.php" method = "post">-->-->
+               <!--                <form action="signup.php" method = "post">-->-->
 <!--                    <input type="submit" value="Sign up"/>-->
 <!--                </form>-->
             </div>
@@ -82,7 +72,7 @@ session_start();
 				</div> 
 				<div class="clear"></div>
             <div id="footer">
-                <a href="login.php">Home</a> <span>|</span>
+                <a href="mainpage.php">Home</a> <span>|</span>
                 <a href="about.php">About the Database</a> <span>|</span>
                 <a href="contact.php">Contact</a>
             </div>

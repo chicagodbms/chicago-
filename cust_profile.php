@@ -29,23 +29,17 @@
 </div>
 
 <?php
+  
+	$cust_email = $_POST["account"];
+	$password = $_POST["password"];
 
-	$cust_email = $_POST['cust_email'];
-	$password = $_POST['cust_password'];
-
-	if ($cust_email == "" || $cust_email == NULL) {
-		$cust_email = $_SESSION['EMAIL'];
-	}
-
-	if ($password == "" || $password == NULL) {
-		$password = $_SESSION['PASSWORD'];
-	}
+	
  
  	$pwdpwd = array();
 	ini_set('display_errors', 'On');
-	$db = '';
-	$conn = oci_connect("", "", $db);
-	$query = "select Customer_Password from Customer where Customer_Email = '".$cust_email."'";
+  $db = '//oracle.cise.ufl.edu/orcl';
+  $conn = oci_connect("weiw", "!Zzz2018", $db);
+	$query = "select UPASSWORD from CRIMEUSER where UNAME = '".$cust_email."'";
 	$stmt = oci_parse($conn, $query);
 	oci_execute($stmt, OCI_DEFAULT);
 	while ($res = oci_fetch_row($stmt)){
@@ -67,36 +61,23 @@
  
  	else { 
     $name = array();
-    $addr = array();
-    $position = array();
-    $star_name = array();
-    $star_position = array();
     ini_set('display_errors', 'On');
-	  $db = '';
-	  $conn = oci_connect("", "", $db);
-    $query = "select c.Customer_Name, c.Customer_Address, c.Soccer_Position, a.Star_Name, s.Star_Soccer_Position 
-    from Customer c, Admire a, Soccer_Star s where c.Customer_Email = a.Customer_Email and a.Star_Name = s.Star_Name and c.Customer_Email = '".$cust_email."'";
+	   $db = '//oracle.cise.ufl.edu/orcl';
+    $conn = oci_connect("weiw", "!Zzz2018", $db);
+    $query = "select * from CRIMEUSER c  where c.UNAME = '".$cust_email."'";
     $stmt = oci_parse($conn, $query);
   	oci_execute($stmt, OCI_DEFAULT);
     while ($res = oci_fetch_row($stmt)){
 		  $name[] = $res[0];
-      $addr[] = $res[1];
-      $position[] = $res[2];
-      $star_name[] = $res[3];
-      $star_position[] = $res[4];
+     
 	  }
       
     oci_close($conn);
-    $_SESSION['EMAIL'] = $cust_email;
-    $_SESSION['NAME'] = $name[0];
-   	$_SESSION['CUST_ADDR'] = $addr[0];
-    $_SESSION['POSITION'] = $position[0];  
+    $_SESSION['NAME'] = $cust_email;
+ 
+      
     $_SESSION['PASSWORD'] = $password;   
     echo "<p>Hi, ".$name[0]."!</p>";
-    echo "<p>Your address is ".$addr[0].".</p>";
-    echo "<p>Your favorite position is ".$position[0].".</p>";
-    echo "<p>Your favorite Star is ".$star_name[0].".</p>";
-    echo "<p>Your favorite Star's position is ".$star_position[0].".</p>";
 
     echo "<p>-------------------------------------------------------------</p>";       
     echo "<p>Please choose what you would like to do today:</p>";

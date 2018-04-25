@@ -1,112 +1,20 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Car Rental Form Flat Responsive Widget Template :: w3layouts</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Car Rental Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
-    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-    <!-- Custom Theme files -->
-    <link href="css/styletest.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- //Custom Theme files -->
-    <!-- web font -->
-    <link href="//fonts.googleapis.com/css?family=Niconne&amp;subset=latin-ext" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Reem+Kufi&amp;subset=arabic" rel="stylesheet">
-    <!-- //web font -->
-</head>
-<body>
-<div >
-    <h1>Car Rental Form</h1>
-    <!-- main -->
-    <div class="main-agilerow">
-        <div class="sub-w3lsright agileits-w3layouts">
-            <h2>Find The Right Car Now</h2>
-            <form action="#" method="post">
-                <input type="text"  class="name" name="name" placeholder="Case Number" required="">
+<?php
+/**
+ * Created by IntelliJ IDEA.
+ * User: grandstar
+ * Date: 18/4/21
+ * Time: 下午3:55
+ */?>
+<html>
 
-                <div class="clear"> </div>
-                <div class="form-control">
-                    <div class="main-row">
-                        <select name="country">
-                            <option value="none" selected="" disabled="">Select Brand</option>
-                            <option value="Job-2">Acura</option>
-                            <option value="Job-3">Alfa Romeo</option>
-                            <option value="Job-4">Aston Martin</option>
-                            <option value="Job-5">Audi</option>
-                            <option value="Job-6">Bentley</option>
-                            <option value="Job-6">BMW</option>
-                            <option value="Job-6">Bugatti</option>
-                            <option value="Job-6">Buick</option>
-                            <option value="Job-6">Land Rover</option>
-                        </select>
-                        <i></i>
-                    </div>
-                    <div class="form-control">
-                        <div class="main-row">
-                            <select name="country">
-                                <option value="none" selected="" disabled="">Arrest Dome</option>
+<body background="css/images/chicago2.jpg" style="width: 100%">
 
-                                <option value="Job-2">New Car</option>
-                                <option value="Job-3">Used Car</option>
-                            </select>
-                            <i></i>
-                        </div>
-                    </div>
-                    <div class="content-wthree2">
-                        <div class="grid-w3layouts1">
-                            <div class="w3-agile1">
-                                <label class="rating">Select Your Price</label>
-                                <ul>
-                                    <li>
-                                        <input type="radio" id="a-option" name="selector1">
-                                        <label for="a-option">Below $40,000</label>
-                                        <div class="check"></div>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="b-option" name="selector1">
-                                        <label for="b-option">$43,000</label>
-                                        <div class="check"><div class="inside"></div></div>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="c-option" name="selector1">
-                                        <label for="c-option">$95,000</label>
-                                        <div class="check"><div class="inside"></div></div>
-                                    </li>
-                                    <li>
-                                        <input type="radio" id="d-option" name="selector1">
-                                        <label for="d-option">$45,000</label>
-                                        <div class="check"></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-                <div class="clear"> </div>
-                <input type="submit" value="Send">
-            </form>
-        </div>
-        <div class="clear"> </div>
-    </div>
-    <!-- //main -->
-    <!-- copyright -->
-    <div class="copyw3-agile">
-        <p> © 2017 Car Rental Form. All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts.</a></p>
-    </div>
-    <!-- //copyright -->
-</div>
+<h3>图像背景</h3>
 
-<!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<script src="js/jquery.vide.min.js"></script>
-<!-- //js -->
+<p>gif 和 jpg 文件均可用作 HTML 背景。</p>
+
+<p>如果图像小于页面，图像会进行重复。</p>
 
 </body>
 </html>
+
