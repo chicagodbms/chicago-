@@ -1,0 +1,1 @@
+eqfeed_callback({"type":"Point","coordinates":[-64.5569,19.0055,65]};
